@@ -122,7 +122,7 @@ a:visited {
   margin-left: -10px;
 }   
 
-.summary {
+.summary-section {
   background-color: #F4F4F4;
   padding: 49px 24px 43px 24px;
 }
@@ -432,6 +432,39 @@ a:active.project {
     border-radius: 50%;
     background-color: #FFF;
   }
+
+  .summary-section {
+    padding: 70px 100px 70px 100px;
+  }
+
+  .tech-section {
+    padding: 15px 100px 30px 100px;
+  }
+
+  .featured-projects-section {
+    padding: 15px 100px 30px 100px; 
+  }
+
+  .projects-flex {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+
+  .projects-container {
+    width: 100%;
+    padding: 45px;
+  }
+
+  .my-thoughts-section {
+    padding: 15px 100px 30px 100px; 
+  }
+
+  .skills-flex {
+    width: 60%;
+    justify-content: space-between;
+    margin: 20px auto 20px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -482,6 +515,10 @@ a:active.project {
     border: solid #FFF 3px;
     border-radius: 50%;
     background-color: #FFF;
+  }
+
+  .summary-section {
+    padding: 70px 100px 100px 70px;
   }
 }
 
