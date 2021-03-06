@@ -6,7 +6,6 @@
     padding: 0;
   }
 
-/*** HEADER ***/
 .header {
   position: relative;
 }
@@ -99,7 +98,7 @@ a:visited {
   background-color: #FFF;
 }
 
-.line {
+.line {                          /** for the symbol in summary-section **/
   display: inline-block;
   width: 55px;
   height: 3px;
@@ -107,7 +106,7 @@ a:visited {
   margin-bottom: 4px;
 }
 
-.circle {
+.circle {                       /** for the symbol in summary-section **/
   display: inline-block;
   background-color: #024434;
   width: 11px;
@@ -122,11 +121,15 @@ a:visited {
   margin-top: -10px;
 }
 
-p {
+p, ul {
   font-family: Montserrat;
   font-weight: 400;
   font-size: 17px;
   line-height: 29px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .heading-container {
@@ -180,7 +183,7 @@ h3 {
 }
 
 .projects-container {
-  margin: 25px auto 0;
+  margin: 25px 0 0;
 }
 
 .projects-img-container {
@@ -214,7 +217,7 @@ a:link.project {
 }
 
 a:hover.project {
-  text-decoration: none;
+  text-decoration: underline;
   color:grey;
 }
 
@@ -242,7 +245,8 @@ a:visited.project {
 }
 
 .thoughts-img {
-  width: 327px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .arrows {
@@ -445,7 +449,7 @@ a:visited.project {
   }
 
   .projects-container {
-    width: 40%;
+    width: 47%;
   }
 
   .projects-img-container {
@@ -460,16 +464,16 @@ a:visited.project {
     padding: 15px 100px 30px 100px; 
   }
 
-  .thoughts-img {
-    width: 45%;
-  }
-
   .thoughts-flex {
-    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
   }
 
   .thoughts-container {
-    margin-top: 50px;
+    width: 45%;
   }
 
   .skills-flex {
@@ -485,7 +489,7 @@ a:visited.project {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1200px){
   .header-img {
     height: 600px;
   }
@@ -541,29 +545,40 @@ a:visited.project {
   }
 
   .my-thoughts-section {
-    padding: 15px 300px 30px;
-  }
-
-  .thoughts-flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 60px;
-  }
-
-  .thoughts-container {
-    width: 45%;
-  }
-
-  .thoughts-img {
-    width: 100%;
+    padding: 15px 220px 30px;
   }
 
   .for-more-icons {
     width: 30%;
     margin: 50px auto 30px;
     font-size: xx-large;
+  }
+}
+
+@media (min-width: 1201px) {
+  .summary-section p {
+    width: 600px;
+    margin: auto;
+  }
+
+  .my-thoughts, .tech-section {
+    width: 820px;
+    margin: auto;
+  } 
+
+  .projects-flex, .other-projects {
+    width: 800px;
+    margin: auto;
+  }
+
+  .my-thoughts-section, .skills-flex {
+    width: 650px;
+    margin: auto;
+  }
+
+  .for-more-icons {
+    width: 345px;
+    margin: auto;
   }
 }
 
