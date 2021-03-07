@@ -408,7 +408,7 @@ a:visited.project {
   .header-icons {
     width: 210px;
     top: 5%;
-    left: 68%;
+    left: 63%;
     font-size: xx-large;
   }
   
@@ -544,8 +544,10 @@ a:visited.project {
   }
 
   .profile-img {
-    left: 72%;
-    top: 410px;
+    width: 280px;
+    height: 280px;
+    left: 67%;
+    top: 345px;
   }
 
   .summary-section {
