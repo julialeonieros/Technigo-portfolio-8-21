@@ -15,4 +15,4 @@ Icons: fontawesome.com
 
 
 View it live
-https://clever-ritchie-e65825.netlify.app/
+https://julia-ros-portfolio.netlify.app/
