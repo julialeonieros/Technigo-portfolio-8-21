@@ -94,8 +94,12 @@ ul {
   color: #FFF;
 }
 
-.bold-span {
+.bold {
   font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .heading-1 {
@@ -396,7 +400,7 @@ a:visited.project {
   display: none;
 }
 
-@media (min-width: 667px) {
+@media (min-width: 767px) {
   h3 {
     margin: 40px 0 15px;
   }
@@ -496,13 +500,13 @@ a:visited.project {
   }
 
   .skills-flex {
-    width: 60%;
+    width: 460px;
     justify-content: space-between;
     margin: 0px auto 20px;
   }
 
   .for-more-icons {
-    width: 40%;
+    width: 300px;
     margin: 30px auto 30px;
   }
 
@@ -569,10 +573,6 @@ a:visited.project {
   .my-thoughts-section {
     padding: 15px 220px 30px;
   }
-
-  .for-more-icons {
-    width: 30%;
-  }
 }
 
 @media (min-width: 1201px) {
@@ -591,14 +591,8 @@ a:visited.project {
     margin: auto;
   }
 
-  .my-thoughts-section, .skills-flex {
+  .my-thoughts-section {
     width: 650px;
     margin: auto;
   }
-
-  .for-more-icons {
-    width: 345px;
-    margin: auto;
-  }
 }
-
