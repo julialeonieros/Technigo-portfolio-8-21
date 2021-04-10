@@ -1,5 +1,5 @@
 # portfolio
-This is my portfolio site made for job applications etc. Made with HTML and CSS (incl. flexbox).
+This is my portfolio site made for job applications etc. Made with HTML and CSS.
 
 THE PROBLEM
 The task was to build a portfolio, either by following Technigos design, or to make your own. I chose to follow the design and tried copying it as precise as I could, but chose my own images and color-scheme. The site should also be made with accessibility in mind, paying a little extra attention to that and also validating it. I also made the site responsive, with an extra breakpoint for desktop. 
