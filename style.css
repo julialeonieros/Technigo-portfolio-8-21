@@ -194,15 +194,37 @@ ul {
   line-height: 29px;
 }
 
-.tech-tag {
+.tech-tag, .tech-tag-github {
   background-color: #fbe3eb;
-  padding: 5px 8px;
+  height: 22px;
+  width: fit-content;
+  padding: 0px 10px;
   font-family: Roboto;
   font-weight: 400;
   font-size: 11px;
   color: #000;
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 8px 5px 10px 0;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tech-tag-github {
+  background-color: #f8cddb;
+  padding: 0px 13px;
+  font-size: medium;
+}
+
+.tech-tag-github-link :hover {
+  background-color: #f5b6cb;
 }
 
 .projects-container {
@@ -500,7 +522,7 @@ a:visited.project {
   }
 
   .skills-flex {
-    width: 460px;
+    width: 600px;
     justify-content: space-between;
     margin: 0px auto 20px;
   }
